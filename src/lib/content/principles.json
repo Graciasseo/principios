@@ -1,0 +1,1276 @@
+[
+	{
+		"id": "honestidad-01",
+		"text": "Cuando no sé una respuesta, lo reconozco en lugar de inventarla.",
+		"primaryValueId": "honestidad",
+		"relatedValueIds": ["humildad"],
+		"explanation": "Evitar una afirmación falsa es el foco: reconocer lo que no sabemos preserva la verdad.",
+		"difficulty": 1,
+		"dimensions": ["growth", "relationships"]
+	},
+	{
+		"id": "honestidad-02",
+		"text": "Si recibo más cambio del debido, lo aviso aunque nadie lo haya notado.",
+		"primaryValueId": "honestidad",
+		"relatedValueIds": ["integridad"],
+		"explanation": "Avisar del error evita beneficiarse mediante un engaño por omisión.",
+		"difficulty": 2,
+		"dimensions": ["decisions", "community"]
+	},
+	{
+		"id": "honestidad-03",
+		"text": "Al contar un resultado, incluyo los datos que contradicen mi conclusión.",
+		"primaryValueId": "honestidad",
+		"relatedValueIds": ["transparencia"],
+		"explanation": "Presentar también la evidencia incómoda evita construir una versión engañosa del resultado.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "growth"]
+	},
+	{
+		"id": "honestidad-04",
+		"text": "No atribuyo a mi trabajo resultados que no he conseguido, aunque mejore mi imagen.",
+		"primaryValueId": "honestidad",
+		"relatedValueIds": ["integridad"],
+		"explanation": "La cuestión principal es no falsear los hechos. La integridad es más amplia: mantener criterios éticos incluso bajo presión.",
+		"difficulty": 3,
+		"dimensions": ["identity", "work"]
+	},
+	{
+		"id": "integridad-01",
+		"text": "No acepto un beneficio a cambio de perjudicar deliberadamente a otra persona.",
+		"primaryValueId": "integridad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se mantiene un límite ético frente a una ventaja personal.",
+		"difficulty": 1,
+		"dimensions": ["decisions", "relationships"]
+	},
+	{
+		"id": "integridad-02",
+		"text": "Rechazo alterar una evaluación a cambio de un favor.",
+		"primaryValueId": "integridad",
+		"relatedValueIds": ["justicia"],
+		"explanation": "El criterio ético se conserva pese a una recompensa ofrecida.",
+		"difficulty": 2,
+		"dimensions": ["work", "decisions"]
+	},
+	{
+		"id": "integridad-03",
+		"text": "No participo en un engaño del equipo, aunque negarme me haga perder una oportunidad.",
+		"primaryValueId": "integridad",
+		"relatedValueIds": ["honestidad", "coraje"],
+		"explanation": "El foco está en sostener un límite ético bajo presión, además de evitar el engaño.",
+		"difficulty": 3,
+		"dimensions": ["community", "identity"]
+	},
+	{
+		"id": "integridad-04",
+		"text": "Evito aprovecharme de la vulnerabilidad de alguien, aunque pudiera hacerlo sin incumplir una norma.",
+		"primaryValueId": "integridad",
+		"relatedValueIds": ["coherencia", "compasion"],
+		"explanation": "La legalidad o el beneficio no sustituyen al criterio ético. Coherencia sería mantener una regla; integridad exige además su orientación ética.",
+		"difficulty": 4,
+		"dimensions": ["decisions", "identity"]
+	},
+	{
+		"id": "transparencia-01",
+		"text": "Antes de organizar un gasto compartido, explico los costes que cada persona tendría que asumir.",
+		"primaryValueId": "transparencia",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "Hacer visibles las condiciones permite decidir con información suficiente.",
+		"difficulty": 1,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "transparencia-02",
+		"text": "Dejo por escrito qué criterios utilizo para seleccionar una propuesta.",
+		"primaryValueId": "transparencia",
+		"relatedValueIds": ["justicia"],
+		"explanation": "El foco es que otras personas puedan comprender cómo se toma la decisión.",
+		"difficulty": 2,
+		"dimensions": ["community", "decisions"]
+	},
+	{
+		"id": "transparencia-03",
+		"text": "Cuando cambio una condición acordada, comunico qué cambió y por qué.",
+		"primaryValueId": "transparencia",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "Explicar el cambio hace visible el proceso, más allá de asumir sus consecuencias.",
+		"difficulty": 3,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "transparencia-04",
+		"text": "Al presentar una recomendación, declaro si recibiré un beneficio por ella.",
+		"primaryValueId": "transparencia",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "Revelar el interés permite evaluar la recomendación. No basta con que lo dicho sea verdadero: importa hacer visible el contexto.",
+		"difficulty": 4,
+		"dimensions": ["decisions", "community"]
+	},
+	{
+		"id": "autonomia-01",
+		"text": "Aprendo a resolver una tarea habitual antes de dar por hecho que otra persona debe hacerla por mí.",
+		"primaryValueId": "autonomia",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "Adquirir una habilidad reduce una dependencia práctica.",
+		"difficulty": 1,
+		"dimensions": ["self", "growth"]
+	},
+	{
+		"id": "autonomia-02",
+		"text": "Guardo copias de mis archivos en un formato que puedo abrir sin depender de un único proveedor.",
+		"primaryValueId": "autonomia",
+		"relatedValueIds": ["libertad"],
+		"explanation": "Conservar el control de los recursos permite actuar por cuenta propia.",
+		"difficulty": 2,
+		"dimensions": ["self", "decisions"]
+	},
+	{
+		"id": "autonomia-03",
+		"text": "Antes de pedir que decidan por mí, comparo las opciones y preparo mi propio criterio.",
+		"primaryValueId": "autonomia",
+		"relatedValueIds": ["libertad"],
+		"explanation": "Desarrollar criterio propio aumenta la capacidad de decidir, no solo el permiso para hacerlo.",
+		"difficulty": 3,
+		"dimensions": ["identity", "decisions"]
+	},
+	{
+		"id": "autonomia-04",
+		"text": "Aunque acepte ayuda para resolver una tarea, intento comprender las decisiones importantes para no delegar mi criterio sin necesidad.",
+		"primaryValueId": "autonomia",
+		"relatedValueIds": ["libertad", "confianza"],
+		"explanation": "La autonomía no exige hacerlo todo sin ayuda: conserva criterio propio al apoyarse en otros. Libertad permite elegir ese apoyo; confianza concede margen a quien ayuda.",
+		"difficulty": 4,
+		"dimensions": ["self", "growth"],
+		"reflection": {
+			"questions": ["¿Qué ayuda te permite decidir mejor y cuál termina sustituyendo tu criterio?"]
+		}
+	},
+	{
+		"id": "libertad-01",
+		"text": "Permito que una persona rechace una invitación sin presionarla ni exigirle explicaciones.",
+		"primaryValueId": "libertad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se protege la posibilidad de elegir sin presión.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "libertad-02",
+		"text": "Dejo que cada persona elija entre opciones válidas aunque prefiera una distinta a la mía.",
+		"primaryValueId": "libertad",
+		"relatedValueIds": ["autonomia"],
+		"explanation": "El foco es respetar una elección, no desarrollar habilidades para realizarla.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "libertad-03",
+		"text": "No condiciono mi ayuda a que la otra persona adopte mis preferencias personales.",
+		"primaryValueId": "libertad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Evitar esa condición protege la elección frente a una imposición.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "contribution"]
+	},
+	{
+		"id": "libertad-04",
+		"text": "Defiendo que alguien pueda discrepar de una decisión sin recibir represalias por expresar su desacuerdo.",
+		"primaryValueId": "libertad",
+		"relatedValueIds": ["autonomia", "respeto"],
+		"explanation": "Se protege el espacio de elección y expresión. La autonomía se referiría a tener recursos o criterio propio para ejercerlo.",
+		"difficulty": 4,
+		"dimensions": ["community"]
+	},
+	{
+		"id": "responsabilidad-01",
+		"text": "Si daño algo que me han prestado, me hago cargo de repararlo o reponerlo.",
+		"primaryValueId": "responsabilidad",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "No basta con reconocer el hecho: se asume la reparación de su consecuencia.",
+		"difficulty": 1,
+		"dimensions": ["relationships"],
+		"reflection": {
+			"questions": [
+				"¿Qué forma de reparación tendría sentido cuando algo que haces afecta a otra persona?"
+			]
+		}
+	},
+	{
+		"id": "responsabilidad-02",
+		"text": "Si no voy a cumplir un plazo acordado, aviso a tiempo y propongo una solución.",
+		"primaryValueId": "responsabilidad",
+		"relatedValueIds": ["transparencia", "compromiso"],
+		"explanation": "Hacerse cargo del compromiso incluye gestionar el incumplimiento.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "work"]
+	},
+	{
+		"id": "responsabilidad-03",
+		"text": "Cuando cometo un error, preparo una corrección en lugar de buscar a quién culpar.",
+		"primaryValueId": "responsabilidad",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "La acción prioritaria es asumir y reparar la consecuencia del propio error.",
+		"difficulty": 3,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "responsabilidad-04",
+		"text": "Antes de aceptar una tarea compartida, reviso lo que podré cumplir y explico mis límites para que otras personas no cuenten con una ayuda irreal.",
+		"primaryValueId": "responsabilidad",
+		"relatedValueIds": ["compromiso", "honestidad"],
+		"explanation": "El foco es hacerse cargo de las consecuencias de lo que se promete. Compromiso sostendría la implicación elegida; responsabilidad evita trasladar a otros el coste de una promesa irreal.",
+		"difficulty": 4,
+		"dimensions": ["decisions", "community"]
+	},
+	{
+		"id": "coherencia-01",
+		"text": "Si pido puntualidad, organizo mi tiempo para llegar también a la hora acordada.",
+		"primaryValueId": "coherencia",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "La misma pauta que se pide a otros se aplica a la propia conducta.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "coherencia-02",
+		"text": "Si digo que descansar es una prioridad, reservo descansos en mi agenda.",
+		"primaryValueId": "coherencia",
+		"relatedValueIds": ["equilibrio"],
+		"explanation": "La prioridad declarada se refleja en una decisión observable.",
+		"difficulty": 2,
+		"dimensions": ["self"]
+	},
+	{
+		"id": "coherencia-03",
+		"text": "Cuando afirmo que escucho todas las propuestas, doy espacio también a las que no me gustan.",
+		"primaryValueId": "coherencia",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se pone en práctica el criterio que se ha declarado.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "coherencia-04",
+		"text": "Si cambio de criterio por nueva información, actualizo también mis decisiones para reflejarlo.",
+		"primaryValueId": "coherencia",
+		"relatedValueIds": ["integridad", "humildad"],
+		"explanation": "Coherencia no es rigidez: consiste en alinear las acciones con el criterio actual. Integridad añade una dimensión ética.",
+		"difficulty": 4,
+		"dimensions": ["identity", "growth"]
+	},
+	{
+		"id": "simplicidad-01",
+		"text": "Si dos soluciones funcionan igual de bien, elijo la que tiene menos pasos.",
+		"primaryValueId": "simplicidad",
+		"relatedValueIds": [],
+		"explanation": "A igualdad de resultado, se reduce complejidad innecesaria.",
+		"difficulty": 1,
+		"dimensions": ["decisions"]
+	},
+	{
+		"id": "simplicidad-02",
+		"text": "Cuando organizo un encuentro con amistades, elimino preparativos que complican el plan sin mejorar el tiempo que compartimos.",
+		"primaryValueId": "simplicidad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se retiran pasos que no aportan al propósito del encuentro, sin descuidar lo necesario.",
+		"difficulty": 2,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "simplicidad-03",
+		"text": "Antes de añadir una herramienta, compruebo si las que ya tengo resuelven la necesidad.",
+		"primaryValueId": "simplicidad",
+		"relatedValueIds": ["autonomia"],
+		"explanation": "Se evita sumar piezas que no aportan una mejora necesaria.",
+		"difficulty": 2,
+		"dimensions": ["self", "decisions"]
+	},
+	{
+		"id": "simplicidad-04",
+		"text": "Simplifico un procedimiento solo si conserva sus comprobaciones esenciales de calidad.",
+		"primaryValueId": "simplicidad",
+		"relatedValueIds": ["excelencia"],
+		"explanation": "El foco es reducir complejidad sin perder requisitos. Excelencia busca elevar la calidad; simplicidad evita complicaciones sin beneficio.",
+		"difficulty": 4,
+		"dimensions": ["work", "decisions"]
+	},
+	{
+		"id": "excelencia-01",
+		"text": "Reviso un trabajo antes de entregarlo y corrijo los fallos que encuentro.",
+		"primaryValueId": "excelencia",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "La revisión mejora la calidad del resultado.",
+		"difficulty": 1,
+		"dimensions": ["work", "growth"]
+	},
+	{
+		"id": "excelencia-02",
+		"text": "Cuando preparo algo para compartir, pido comentarios concretos y los uso para hacerlo mejor la próxima vez.",
+		"primaryValueId": "excelencia",
+		"relatedValueIds": ["humildad"],
+		"explanation": "La retroalimentación se convierte en una mejora de calidad.",
+		"difficulty": 2,
+		"dimensions": ["growth", "relationships"]
+	},
+	{
+		"id": "excelencia-03",
+		"text": "Antes de tocar una pieza con otras personas, practico los pasajes que peor me salen para mejorar el resultado conjunto.",
+		"primaryValueId": "excelencia",
+		"relatedValueIds": ["disciplina", "colaboracion"],
+		"explanation": "La práctica deliberada busca un resultado mejor, no solo cumplir.",
+		"difficulty": 3,
+		"dimensions": ["self", "growth"]
+	},
+	{
+		"id": "excelencia-04",
+		"text": "Defino qué significa un buen resultado y verifico que lo alcanzamos antes de dar el trabajo por terminado.",
+		"primaryValueId": "excelencia",
+		"relatedValueIds": ["simplicidad", "responsabilidad"],
+		"explanation": "El foco está en estándares de calidad comprobables. Simplicidad trata de reducir complejidad, aunque ambas puedan apoyarse.",
+		"difficulty": 4,
+		"dimensions": ["work"]
+	},
+	{
+		"id": "respeto-01",
+		"text": "Pido permiso antes de compartir una foto en la que aparece otra persona.",
+		"primaryValueId": "respeto",
+		"relatedValueIds": ["privacidad", "libertad"],
+		"explanation": "El consentimiento protege un límite personal.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "respeto-02",
+		"text": "Dejo terminar a quien habla antes de responder, aunque no esté de acuerdo.",
+		"primaryValueId": "respeto",
+		"relatedValueIds": ["empatia"],
+		"explanation": "Se reconoce su derecho a expresarse mediante el trato.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "respeto-03",
+		"text": "Cuando alguien me pide que deje de hacer una broma sobre su persona, la dejo.",
+		"primaryValueId": "respeto",
+		"relatedValueIds": ["empatia", "tolerancia"],
+		"explanation": "Se atiende a un límite expresado sin exigir que la otra persona lo justifique.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "respeto-04",
+		"text": "Trato con cortesía a alguien cuya reacción no comprendo, sin ridiculizarlo por ella.",
+		"primaryValueId": "respeto",
+		"relatedValueIds": ["empatia"],
+		"explanation": "Respetar no exige comprender lo que siente. La empatía pondría el foco en intentar comprender esa experiencia.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "empatia-01",
+		"text": "Antes de juzgar una reacción, pregunto qué está viviendo la otra persona.",
+		"primaryValueId": "empatia",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se busca comprender su experiencia antes de interpretarla.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "empatia-02",
+		"text": "Cuando alguien me cuenta un problema, escucho cómo se siente antes de ofrecer soluciones.",
+		"primaryValueId": "empatia",
+		"relatedValueIds": ["respeto", "compasion"],
+		"explanation": "La prioridad es entender la vivencia, no resolverla inmediatamente.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "empatia-03",
+		"text": "Antes de interpretar un silencio como desinterés, considero que la otra persona puede estar pasando un mal momento.",
+		"primaryValueId": "empatia",
+		"relatedValueIds": [],
+		"explanation": "Se consideran perspectivas y sentimientos distintos de los propios.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "empatia-04",
+		"text": "Al recibir una queja, intento describir lo que preocupa a la persona y compruebo si lo he entendido bien.",
+		"primaryValueId": "empatia",
+		"relatedValueIds": ["respeto", "compasion"],
+		"explanation": "El foco es comprobar que se ha comprendido la perspectiva ajena. Compasión impulsaría a aliviar su sufrimiento; respeto mantiene un trato digno incluso sin comprenderla.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "justicia-01",
+		"text": "Reparto las tareas menos agradables con un turno conocido en lugar de asignarlas siempre a la misma persona.",
+		"primaryValueId": "justicia",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Un criterio equitativo evita cargar siempre a una persona con el coste.",
+		"difficulty": 1,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "justicia-02",
+		"text": "Evalúo propuestas con los mismos criterios, aunque una proceda de alguien cercano.",
+		"primaryValueId": "justicia",
+		"relatedValueIds": ["integridad", "lealtad"],
+		"explanation": "La ausencia de favoritismo protege una evaluación equitativa.",
+		"difficulty": 2,
+		"dimensions": ["work", "decisions"]
+	},
+	{
+		"id": "justicia-03",
+		"text": "Al distribuir un recurso limitado, acuerdo criterios de necesidad antes de conocer a quién beneficiarán.",
+		"primaryValueId": "justicia",
+		"relatedValueIds": ["empatia", "solidaridad"],
+		"explanation": "Definir criterios previos evita que la preferencia personal decida el reparto.",
+		"difficulty": 3,
+		"dimensions": ["community", "decisions"]
+	},
+	{
+		"id": "justicia-04",
+		"text": "Ofrezco ajustes a quien los necesita para que una evaluación mida la misma capacidad en condiciones comparables.",
+		"primaryValueId": "justicia",
+		"relatedValueIds": ["empatia", "respeto"],
+		"explanation": "La equidad puede requerir apoyos distintos. La empatía ayuda a comprender la necesidad; aquí el foco es una oportunidad justa.",
+		"difficulty": 4,
+		"dimensions": ["growth", "community"]
+	},
+	{
+		"id": "autenticidad-01",
+		"text": "Cuando elijo una actividad con amistades, digo qué me apetece en lugar de fingir que me gusta lo mismo.",
+		"primaryValueId": "autenticidad",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "El foco está en expresar una preferencia propia, aunque no coincida con la del grupo.",
+		"difficulty": 1,
+		"dimensions": ["identity", "relationships"]
+	},
+	{
+		"id": "autenticidad-02",
+		"text": "Si una celebración no me resulta alegre, evito representar entusiasmo solo para parecer como se espera.",
+		"primaryValueId": "autenticidad",
+		"relatedValueIds": ["privacidad"],
+		"explanation": "Reconocer la propia vivencia evita actuar un papel. No exige revelar sentimientos que se prefiera reservar.",
+		"difficulty": 2,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "autenticidad-03",
+		"text": "Antes de aceptar un plan de vida que otros celebran, me pregunto si también responde a lo que yo quiero.",
+		"primaryValueId": "autenticidad",
+		"relatedValueIds": ["autonomia"],
+		"explanation": "Se examina la afinidad con deseos propios. La autonomía se centra en poder decidir; aquí importa qué decisión representa a la persona.",
+		"difficulty": 3,
+		"dimensions": ["identity", "decisions", "future"]
+	},
+	{
+		"id": "autenticidad-04",
+		"text": "Si descubro que una costumbre ya no expresa mis convicciones, me permito dejarla aunque sea parte de la imagen que otros tienen de mí.",
+		"primaryValueId": "autenticidad",
+		"relatedValueIds": ["coherencia", "coraje"],
+		"explanation": "Ser fiel a la experiencia actual puede exigir cambiar. Coherencia alinea actos y criterios; autenticidad pone el foco en que esos criterios sean propios.",
+		"difficulty": 4,
+		"dimensions": ["identity", "growth"]
+	},
+	{
+		"id": "compasion-01",
+		"text": "Si alguien está pasando un momento doloroso, le ofrezco compañía y pregunto qué apoyo le vendría bien.",
+		"primaryValueId": "compasion",
+		"relatedValueIds": ["empatia", "respeto"],
+		"explanation": "La respuesta se orienta a aliviar el dolor con una ayuda que la persona pueda aceptar o rechazar.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "compasion-02",
+		"text": "Cuando me equivoco y empiezo a tratarme con crueldad, intento responderme con la misma consideración que ofrecería a alguien que sufre.",
+		"primaryValueId": "compasion",
+		"relatedValueIds": ["cuidado", "responsabilidad"],
+		"explanation": "El foco es reducir el sufrimiento añadido por el trato hacia uno mismo, sin negar la responsabilidad por el error.",
+		"difficulty": 2,
+		"dimensions": ["self"],
+		"reflection": {
+			"questions": ["¿Qué cambiaría si te hablaras con consideración mientras corriges un error?"]
+		}
+	},
+	{
+		"id": "compasion-03",
+		"text": "Cuando veo que una crítica está causando un daño innecesario, propongo tratar el problema sin humillar a la persona.",
+		"primaryValueId": "compasion",
+		"relatedValueIds": ["respeto", "empatia"],
+		"explanation": "Se intenta aliviar un daño evitable. La empatía permitiría comprenderlo; la compasión mueve a intervenir sobre él.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "compasion-04",
+		"text": "Aunque no comprenda del todo la tristeza de alguien, ofrezco una ayuda que pueda aliviarla sin exigirle que me convenza de su dolor.",
+		"primaryValueId": "compasion",
+		"relatedValueIds": ["empatia"],
+		"explanation": "La voluntad de aliviar no depende de comprender por completo. Esa es la diferencia con la empatía, cuyo foco es entender la vivencia.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "contribution"]
+	},
+	{
+		"id": "compromiso-01",
+		"text": "Si acepto acompañar regularmente a un familiar, reservo ese tiempo y no lo trato como un plan prescindible.",
+		"primaryValueId": "compromiso",
+		"relatedValueIds": ["responsabilidad", "cuidado"],
+		"explanation": "La elección de acompañar se sostiene con una presencia continuada.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "compromiso-02",
+		"text": "Si decido participar en una asociación, mantengo la implicación que acordé también cuando pasa la novedad inicial.",
+		"primaryValueId": "compromiso",
+		"relatedValueIds": ["colaboracion"],
+		"explanation": "Se da continuidad a una elección compartida, más allá del entusiasmo del comienzo.",
+		"difficulty": 2,
+		"dimensions": ["community", "contribution"]
+	},
+	{
+		"id": "compromiso-03",
+		"text": "Si quiero mantener una amistad a distancia, busco una forma de contacto que pueda sostener con el tiempo.",
+		"primaryValueId": "compromiso",
+		"relatedValueIds": ["lealtad", "cuidado"],
+		"explanation": "El centro es cuidar una implicación elegida; no se trata solo de cumplir una tarea pendiente.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "future"]
+	},
+	{
+		"id": "compromiso-04",
+		"text": "Cuando cambian mis circunstancias, hablo de cómo continuar un acuerdo importante en vez de dar por terminada mi implicación sin conversarlo.",
+		"primaryValueId": "compromiso",
+		"relatedValueIds": ["responsabilidad", "honestidad"],
+		"explanation": "Revisar la forma permite sostener el vínculo elegido. Responsabilidad sería hacerse cargo de sus consecuencias; compromiso destaca la continuidad de la implicación.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "colaboracion-01",
+		"text": "Antes de preparar una comida en grupo, acordamos quién hace cada parte y cómo ayudarnos si hace falta.",
+		"primaryValueId": "colaboracion",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "Coordinar aportaciones permite realizar una tarea compartida.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "colaboracion-02",
+		"text": "En una actividad de clase, pongo en común mis ideas y las ajusto para construir una propuesta entre todos.",
+		"primaryValueId": "colaboracion",
+		"relatedValueIds": ["creatividad"],
+		"explanation": "El resultado se elabora conjuntamente; no consiste solo en sumar trabajos separados.",
+		"difficulty": 2,
+		"dimensions": ["growth", "relationships"]
+	},
+	{
+		"id": "colaboracion-03",
+		"text": "Cuando una tarea del equipo se atasca, reviso con las demás personas cómo reorganizarnos en lugar de limitarme a acabar mi parte.",
+		"primaryValueId": "colaboracion",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "La coordinación se adapta para que avance el conjunto. La responsabilidad individual ayuda, pero no agota la colaboración.",
+		"difficulty": 3,
+		"dimensions": ["work", "relationships"]
+	},
+	{
+		"id": "colaboracion-04",
+		"text": "En una iniciativa vecinal, comparto decisiones con quienes participan, aunque pudiera resolver una parte más rápido por mi cuenta.",
+		"primaryValueId": "colaboracion",
+		"relatedValueIds": ["contribucion", "respeto"],
+		"explanation": "El foco es construir en común y dar participación real. Contribución sería aportar algo útil, incluso sin compartir el proceso de decisión.",
+		"difficulty": 4,
+		"dimensions": ["community"],
+		"reflection": {
+			"mission": [
+				"¿Qué decisión de una actividad compartida podrías abrir a quienes participan en ella?"
+			]
+		}
+	},
+	{
+		"id": "confianza-01",
+		"text": "Cuando alguien cumple habitualmente lo que acuerda, le dejo hacer su parte sin comprobar cada paso.",
+		"primaryValueId": "confianza",
+		"relatedValueIds": ["respeto"],
+		"explanation": "La experiencia de fiabilidad permite reducir el control.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "confianza-02",
+		"text": "Si una amistad me explica un retraso ocasional, le doy margen antes de interpretar que intenta engañarme.",
+		"primaryValueId": "confianza",
+		"relatedValueIds": ["empatia"],
+		"explanation": "Se parte de una expectativa razonable de buena fe, sin negar que nuevas señales puedan cambiarla.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "confianza-03",
+		"text": "Al compartir una tarea, acordamos cuándo revisarla y evito supervisar cada decisión entre esas revisiones.",
+		"primaryValueId": "confianza",
+		"relatedValueIds": ["colaboracion"],
+		"explanation": "Se acepta un margen de incertidumbre y capacidad ajena. Colaboración organiza la tarea; confianza evita convertirla en control constante.",
+		"difficulty": 3,
+		"dimensions": ["work", "relationships"]
+	},
+	{
+		"id": "confianza-04",
+		"text": "Después de reparar un desacuerdo, pruebo a recuperar la confianza mediante acuerdos pequeños que podamos revisar.",
+		"primaryValueId": "confianza",
+		"relatedValueIds": ["prudencia", "paciencia"],
+		"explanation": "Confiar admite límites y pasos graduales. Prudencia evalúa el riesgo; aquí el propósito es volver a dar margen a la relación.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "growth"],
+		"reflection": {
+			"mission": ["¿Qué acuerdo pequeño permitiría probar de nuevo una relación de confianza?"]
+		}
+	},
+	{
+		"id": "contribucion-01",
+		"text": "Cuando aprendo algo que puede servir a otras personas, busco una forma comprensible de compartirlo.",
+		"primaryValueId": "contribucion",
+		"relatedValueIds": ["generosidad"],
+		"explanation": "Transmitir lo aprendido pone su utilidad al alcance de alguien más.",
+		"difficulty": 1,
+		"dimensions": ["growth", "contribution"]
+	},
+	{
+		"id": "contribucion-02",
+		"text": "Si conozco una historia familiar que puede perderse, la registro con permiso para que otras generaciones puedan conocerla.",
+		"primaryValueId": "contribucion",
+		"relatedValueIds": ["privacidad", "cuidado"],
+		"explanation": "El aporte consiste en preservar algo valioso para quienes vendrán, respetando a quienes aparecen en el relato.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "future", "contribution"]
+	},
+	{
+		"id": "contribucion-03",
+		"text": "Antes de ofrecer ayuda en mi barrio, pregunto qué hace falta para que mi esfuerzo responda a una necesidad real.",
+		"primaryValueId": "contribucion",
+		"relatedValueIds": ["generosidad", "humildad"],
+		"explanation": "El foco es la utilidad del aporte, no solo la disposición a dar tiempo o recursos.",
+		"difficulty": 3,
+		"dimensions": ["community", "contribution"],
+		"reflection": {
+			"mission": [
+				"¿A quién podrías preguntar qué tipo de ayuda sería realmente útil antes de ofrecerla?"
+			]
+		}
+	},
+	{
+		"id": "contribucion-04",
+		"text": "Cuando reviso una actividad que mantengo, me pregunto qué mejora deja en otras personas además de lo que yo obtengo de ella.",
+		"primaryValueId": "contribucion",
+		"relatedValueIds": ["colaboracion"],
+		"explanation": "Se considera el valor aportado más allá de uno mismo. Colaboración describe cómo se hace con otros; contribución pregunta qué deja.",
+		"difficulty": 4,
+		"dimensions": ["identity", "contribution", "future"]
+	},
+	{
+		"id": "coraje-01",
+		"text": "Si necesito pedir ayuda y me da vergüenza, intento hacerlo en lugar de ocultar que la necesito.",
+		"primaryValueId": "coraje",
+		"relatedValueIds": ["humildad"],
+		"explanation": "Se da un paso necesario pese al temor a mostrarse vulnerable.",
+		"difficulty": 1,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "coraje-02",
+		"text": "Si algo importante me incomoda en una amistad, busco un momento para hablarlo aunque tema una conversación difícil.",
+		"primaryValueId": "coraje",
+		"relatedValueIds": ["honestidad", "respeto"],
+		"explanation": "El temor a la conversación no anula una razón importante para tenerla.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "coraje-03",
+		"text": "Si deseo aprender una actividad y temo hacer el ridículo, doy un primer paso acorde con mis posibilidades.",
+		"primaryValueId": "coraje",
+		"relatedValueIds": ["prudencia", "curiosidad"],
+		"explanation": "El paso se ajusta al riesgo real, pero no queda bloqueado solo por miedo a la opinión ajena.",
+		"difficulty": 3,
+		"dimensions": ["growth", "self"]
+	},
+	{
+		"id": "coraje-04",
+		"text": "Cuando veo una burla que me parece dañina, busco una forma segura de expresar mi desacuerdo aunque tema quedarme sin apoyo.",
+		"primaryValueId": "coraje",
+		"relatedValueIds": ["integridad", "respeto"],
+		"explanation": "El foco es actuar pese al miedo social. Integridad sostiene el límite ético; coraje nombra el paso que permite defenderlo.",
+		"difficulty": 4,
+		"dimensions": ["community", "decisions"]
+	},
+	{
+		"id": "creatividad-01",
+		"text": "Cuando invento un juego para pasar el rato, pruebo a combinar reglas conocidas de una manera distinta.",
+		"primaryValueId": "creatividad",
+		"relatedValueIds": [],
+		"explanation": "Se da forma a una posibilidad nueva a partir de elementos disponibles.",
+		"difficulty": 1,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "creatividad-02",
+		"text": "Si una forma de explicar algo no ayuda, pruebo otra imagen, historia o ejemplo en lugar de repetir lo mismo.",
+		"primaryValueId": "creatividad",
+		"relatedValueIds": ["empatia"],
+		"explanation": "Generar otra forma de expresión abre una vía que aún no se había usado.",
+		"difficulty": 2,
+		"dimensions": ["growth", "relationships"]
+	},
+	{
+		"id": "creatividad-03",
+		"text": "Antes de descartar un objeto que ya no cumple su función, imagino si puede tener un uso diferente que realmente necesite.",
+		"primaryValueId": "creatividad",
+		"relatedValueIds": ["simplicidad", "cuidado"],
+		"explanation": "El foco es generar una posibilidad alternativa. Simplicidad busca reducir lo innecesario; aquí interesa transformar el uso.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "self"]
+	},
+	{
+		"id": "creatividad-04",
+		"text": "Cuando una solución conocida no encaja con lo que vivimos, ensayo una alternativa pequeña y observo qué posibilidades abre.",
+		"primaryValueId": "creatividad",
+		"relatedValueIds": ["excelencia", "prudencia"],
+		"explanation": "Se explora una respuesta distinta, no solo se perfecciona la habitual. La excelencia evalúa calidad; creatividad amplía las posibilidades.",
+		"difficulty": 4,
+		"dimensions": ["growth", "decisions"]
+	},
+	{
+		"id": "curiosidad-01",
+		"text": "Cuando encuentro una palabra que no comprendo, busco su significado en vez de pasar por alto la duda.",
+		"primaryValueId": "curiosidad",
+		"relatedValueIds": [],
+		"explanation": "Una duda se convierte en una oportunidad de comprender algo nuevo.",
+		"difficulty": 1,
+		"dimensions": ["growth"]
+	},
+	{
+		"id": "curiosidad-02",
+		"text": "Si alguien disfruta de una actividad que desconozco, le pregunto qué encuentra en ella antes de descartarla.",
+		"primaryValueId": "curiosidad",
+		"relatedValueIds": ["tolerancia"],
+		"explanation": "Se explora una experiencia desconocida sin exigir que coincida con las propias preferencias.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "growth"]
+	},
+	{
+		"id": "curiosidad-03",
+		"text": "Cuando una idea contradice la mía, intento conocer sus razones y no solo buscar cómo rebatirla.",
+		"primaryValueId": "curiosidad",
+		"relatedValueIds": ["humildad"],
+		"explanation": "El foco es ampliar la comprensión. La humildad permite admitir límites; curiosidad impulsa la exploración.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "growth"],
+		"reflection": {
+			"mission": [
+				"¿Cómo podrías escuchar una idea contraria con intención de entenderla antes de responder?"
+			]
+		}
+	},
+	{
+		"id": "curiosidad-04",
+		"text": "Si algo importante no lo entiendo, comparo explicaciones antes de cerrar mi opinión, incluso cuando ya tengo una respuesta cómoda.",
+		"primaryValueId": "curiosidad",
+		"relatedValueIds": ["prudencia", "humildad"],
+		"explanation": "Se mantiene abierta una investigación por deseo de comprender. Prudencia la motivaría principalmente para evitar un riesgo.",
+		"difficulty": 4,
+		"dimensions": ["growth", "decisions"]
+	},
+	{
+		"id": "disciplina-01",
+		"text": "Si quiero practicar una habilidad, reservo momentos concretos en lugar de esperar a que aparezcan ganas.",
+		"primaryValueId": "disciplina",
+		"relatedValueIds": ["compromiso"],
+		"explanation": "Una intención se convierte en una práctica organizada.",
+		"difficulty": 1,
+		"dimensions": ["self", "growth"]
+	},
+	{
+		"id": "disciplina-02",
+		"text": "Cuando estudio, preparo un espacio y aparto las distracciones que sé que interrumpen mi atención.",
+		"primaryValueId": "disciplina",
+		"relatedValueIds": ["simplicidad"],
+		"explanation": "Se crean condiciones que ayudan a sostener una práctica elegida.",
+		"difficulty": 2,
+		"dimensions": ["growth", "self"]
+	},
+	{
+		"id": "disciplina-03",
+		"text": "Si mi rutina de práctica resulta demasiado exigente, la reduzco a una frecuencia que pueda mantener.",
+		"primaryValueId": "disciplina",
+		"relatedValueIds": ["equilibrio"],
+		"explanation": "La estructura se adapta para seguir siendo practicable. Equilibrio atiende el reparto entre necesidades; disciplina mantiene una pauta.",
+		"difficulty": 3,
+		"dimensions": ["self", "decisions"],
+		"reflection": {
+			"questions": [
+				"¿Qué parte de una rutina podrías ajustar para que siguiera siendo practicable?"
+			]
+		}
+	},
+	{
+		"id": "disciplina-04",
+		"text": "Aunque una actividad de aprendizaje ya no sea novedosa, mantengo la práctica acordada sin necesitar un reto distinto cada día.",
+		"primaryValueId": "disciplina",
+		"relatedValueIds": ["perseverancia", "compromiso"],
+		"explanation": "El centro es la regularidad ante cambios de motivación. Perseverancia se distingue por continuar ante obstáculos o reveses concretos.",
+		"difficulty": 4,
+		"dimensions": ["growth"]
+	},
+	{
+		"id": "equilibrio-01",
+		"text": "Si llevo varios días llenando todo mi tiempo con tareas, reservo también espacio para descansar y relacionarme.",
+		"primaryValueId": "equilibrio",
+		"relatedValueIds": ["cuidado"],
+		"explanation": "Se recupera espacio para ámbitos que estaban quedando relegados.",
+		"difficulty": 1,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "equilibrio-02",
+		"text": "Antes de aceptar otra actividad, considero qué tiempo restaría a las personas y necesidades que ya quiero atender.",
+		"primaryValueId": "equilibrio",
+		"relatedValueIds": ["responsabilidad", "prudencia"],
+		"explanation": "La decisión tiene en cuenta el conjunto, no solo el atractivo del nuevo plan.",
+		"difficulty": 2,
+		"dimensions": ["decisions", "relationships"]
+	},
+	{
+		"id": "equilibrio-03",
+		"text": "Cuando una urgencia familiar exige más presencia, reajusto otras actividades y reviso el reparto cuando la urgencia pasa.",
+		"primaryValueId": "equilibrio",
+		"relatedValueIds": ["cuidado", "compromiso"],
+		"explanation": "Equilibrio no es repartir por igual: adapta las prioridades sin convertir una excepción en abandono permanente.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "self"]
+	},
+	{
+		"id": "equilibrio-04",
+		"text": "Si una afición que disfruto desplaza de forma persistente el descanso o mis vínculos, busco un reparto que permita cuidar esas partes de mi vida.",
+		"primaryValueId": "equilibrio",
+		"relatedValueIds": ["disciplina", "cuidado"],
+		"explanation": "No se juzga la afición como mala: se reconsidera su lugar en el conjunto. Disciplina organiza la repetición; equilibrio revisa la distribución.",
+		"difficulty": 4,
+		"dimensions": ["self", "decisions"]
+	},
+	{
+		"id": "generosidad-01",
+		"text": "Cuando puedo prestar algo que otra persona necesita, lo ofrezco sin convertir el favor en una deuda personal.",
+		"primaryValueId": "generosidad",
+		"relatedValueIds": ["confianza"],
+		"explanation": "Se comparte un recurso sin reclamar una devolución equivalente.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "generosidad-02",
+		"text": "Si una amistad necesita que la escuchen y dispongo de tiempo, le ofrezco atención sin llevar la cuenta de los favores.",
+		"primaryValueId": "generosidad",
+		"relatedValueIds": ["cuidado"],
+		"explanation": "La atención se ofrece como algo valioso, no como un intercambio que deba equilibrarse de inmediato.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "generosidad-03",
+		"text": "Si comparto mis conocimientos con alguien, evito reservarme un paso importante para que siga dependiendo de mí.",
+		"primaryValueId": "generosidad",
+		"relatedValueIds": ["autonomia", "contribucion"],
+		"explanation": "La disposición a compartir es el foco. Autonomía puede ser un efecto de esa ayuda para quien la recibe.",
+		"difficulty": 3,
+		"dimensions": ["growth", "contribution"]
+	},
+	{
+		"id": "generosidad-04",
+		"text": "Cuando hago un regalo, dejo que quien lo recibe decida cómo usarlo sin exigirle que cumpla mis expectativas.",
+		"primaryValueId": "generosidad",
+		"relatedValueIds": ["respeto", "libertad"],
+		"explanation": "Se comparte sin utilizar el gesto para controlar. Respeto protege la elección ajena; generosidad destaca el carácter libre de lo ofrecido.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "gratitud-01",
+		"text": "Cuando alguien me ayuda, procuro decirle qué ha significado para mí su apoyo.",
+		"primaryValueId": "gratitud",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se reconoce de forma concreta el valor de lo recibido.",
+		"difficulty": 1,
+		"dimensions": ["relationships"],
+		"reflection": {
+			"mission": ["¿A quién te gustaría contar qué significó para ti algo que hizo?"]
+		}
+	},
+	{
+		"id": "gratitud-02",
+		"text": "Al recordar un logro personal, incluyo a las personas y circunstancias que lo hicieron posible.",
+		"primaryValueId": "gratitud",
+		"relatedValueIds": ["humildad"],
+		"explanation": "Se hace presente la ayuda recibida sin negar el esfuerzo propio.",
+		"difficulty": 2,
+		"dimensions": ["identity", "relationships"]
+	},
+	{
+		"id": "gratitud-03",
+		"text": "Si disfruto de un espacio cuidado por otras personas, busco una ocasión para reconocer ese esfuerzo.",
+		"primaryValueId": "gratitud",
+		"relatedValueIds": ["cuidado"],
+		"explanation": "El foco es apreciar un beneficio que podría pasar inadvertido.",
+		"difficulty": 2,
+		"dimensions": ["community"]
+	},
+	{
+		"id": "gratitud-04",
+		"text": "Puedo agradecer una ayuda pasada y, a la vez, decir que no a una petición que cruza mis límites.",
+		"primaryValueId": "gratitud",
+		"relatedValueIds": ["lealtad", "respeto"],
+		"explanation": "Reconocer lo recibido no crea una deuda ilimitada. Lealtad sostiene un vínculo; gratitud no obliga a aceptar todo en su nombre.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "self"]
+	},
+	{
+		"id": "humildad-01",
+		"text": "Cuando una tarea me supera, reconozco lo que no puedo resolver y considero pedir ayuda.",
+		"primaryValueId": "humildad",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "Se aceptan límites reales sin fingir autosuficiencia ni negar lo que sí se sabe hacer.",
+		"difficulty": 1,
+		"dimensions": ["self", "growth"]
+	},
+	{
+		"id": "humildad-02",
+		"text": "Escucho una crítica concreta antes de descartarla por venir de alguien con menos experiencia que yo.",
+		"primaryValueId": "humildad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "La propia experiencia no se utiliza como prueba de que no hay nada que aprender.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "growth"]
+	},
+	{
+		"id": "humildad-03",
+		"text": "Si encuentro razones mejores que las mías, reviso mi opinión aunque antes la haya defendido con seguridad.",
+		"primaryValueId": "humildad",
+		"relatedValueIds": ["honestidad", "curiosidad"],
+		"explanation": "El foco es aceptar la posibilidad de estar equivocado, no proteger la imagen de tener razón.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "growth"]
+	},
+	{
+		"id": "humildad-04",
+		"text": "Puedo reconocer que hice algo bien y seguir pidiendo ayuda en lo que no sé, sin presentarme como incapaz ni infalible.",
+		"primaryValueId": "humildad",
+		"relatedValueIds": ["honestidad"],
+		"explanation": "Humildad es ajustar la autoevaluación, no rebajarse. Honestidad atiende a no engañar; aquí importa reconocer capacidades y límites.",
+		"difficulty": 4,
+		"dimensions": ["identity", "self"]
+	},
+	{
+		"id": "lealtad-01",
+		"text": "Cuando una amistad atraviesa una etapa difícil, procuro mantener el contacto en vez de aparecer solo en los buenos momentos.",
+		"primaryValueId": "lealtad",
+		"relatedValueIds": ["cuidado", "compromiso"],
+		"explanation": "Se sostiene la presencia en un vínculo cuando resulta menos fácil.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "lealtad-02",
+		"text": "Si tengo una diferencia con alguien cercano, intento hablarla con esa persona antes de desacreditarla ante el grupo.",
+		"primaryValueId": "lealtad",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se da al vínculo una oportunidad de afrontar la diferencia sin convertirla en descalificación pública.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "lealtad-03",
+		"text": "Si una persona a la que aprecio se equivoca, puedo acompañarla a reparar el daño sin justificar lo que hizo.",
+		"primaryValueId": "lealtad",
+		"relatedValueIds": ["integridad", "responsabilidad"],
+		"explanation": "Apoyar a la persona no implica defender su conducta. La fidelidad al vínculo puede convivir con criterios éticos.",
+		"difficulty": 3,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "lealtad-04",
+		"text": "Si un grupo al que pertenezco me pide encubrir un daño, rechazo ocultarlo y ofrezco apoyo para afrontarlo juntos.",
+		"primaryValueId": "lealtad",
+		"relatedValueIds": ["integridad", "honestidad"],
+		"explanation": "La lealtad defendible sostiene a las personas sin exigir encubrimiento. El gesto de seguir acompañando distingue este foco del mero rechazo ético propio de integridad.",
+		"difficulty": 4,
+		"dimensions": ["community", "relationships"]
+	},
+	{
+		"id": "paciencia-01",
+		"text": "Cuando alguien está aprendiendo algo, le doy tiempo para intentarlo sin acabar cada paso por esa persona.",
+		"primaryValueId": "paciencia",
+		"relatedValueIds": ["respeto", "autonomia"],
+		"explanation": "Se respeta el tiempo que necesita un aprendizaje, aunque esperar resulte incómodo.",
+		"difficulty": 1,
+		"dimensions": ["relationships", "growth"]
+	},
+	{
+		"id": "paciencia-02",
+		"text": "Si una decisión compartida requiere que alguien piense, acordamos un plazo en lugar de exigir una respuesta inmediata.",
+		"primaryValueId": "paciencia",
+		"relatedValueIds": ["respeto"],
+		"explanation": "Se ofrece tiempo sin dejar la espera indefinida.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "decisions"]
+	},
+	{
+		"id": "paciencia-03",
+		"text": "Si una habilidad mejora despacio, evito interpretar cada día sin avances visibles como una prueba de fracaso.",
+		"primaryValueId": "paciencia",
+		"relatedValueIds": ["perseverancia"],
+		"explanation": "El foco es tolerar el ritmo del proceso. Perseverancia describiría mantener el esfuerzo a pesar del revés.",
+		"difficulty": 3,
+		"dimensions": ["growth", "self"]
+	},
+	{
+		"id": "paciencia-04",
+		"text": "Cuando ya tengo la información necesaria pero la otra persona necesita tiempo para asimilarla, evito presionarla solo para terminar antes la conversación.",
+		"primaryValueId": "paciencia",
+		"relatedValueIds": ["prudencia", "empatia"],
+		"explanation": "La espera responde al ritmo de otra persona. Prudencia esperaría para reducir incertidumbre o riesgo; aquí esa información ya está disponible.",
+		"difficulty": 4,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "perseverancia-01",
+		"text": "Si un primer intento de aprender algo sale mal y aún me importa, pruebo otra vez con un paso más pequeño.",
+		"primaryValueId": "perseverancia",
+		"relatedValueIds": ["disciplina"],
+		"explanation": "Se retoma el esfuerzo después de un revés, ajustando la dificultad.",
+		"difficulty": 1,
+		"dimensions": ["growth"]
+	},
+	{
+		"id": "perseverancia-02",
+		"text": "Cuando una actividad se interrumpe por un imprevisto, busco cómo retomarla en lugar de dar por perdido todo el proceso.",
+		"primaryValueId": "perseverancia",
+		"relatedValueIds": ["compromiso"],
+		"explanation": "La interrupción no se convierte automáticamente en abandono.",
+		"difficulty": 2,
+		"dimensions": ["self", "growth"]
+	},
+	{
+		"id": "perseverancia-03",
+		"text": "Si una forma de resolver un problema se atasca, pruebo otra estrategia antes de concluir que no puedo avanzar.",
+		"primaryValueId": "perseverancia",
+		"relatedValueIds": ["creatividad"],
+		"explanation": "Continuar no significa repetir exactamente el mismo intento; puede requerir adaptar la estrategia.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "growth"]
+	},
+	{
+		"id": "perseverancia-04",
+		"text": "Ante varios intentos fallidos, reviso si la meta sigue teniendo sentido y, si lo tiene, cambio el camino sin renunciar solo por la dificultad.",
+		"primaryValueId": "perseverancia",
+		"relatedValueIds": ["disciplina", "prudencia"],
+		"explanation": "El foco es sostener un esfuerzo frente al obstáculo, no repetir una rutina como en disciplina ni insistir a cualquier precio.",
+		"difficulty": 4,
+		"dimensions": ["growth", "future"],
+		"reflection": {
+			"questions": [
+				"¿Qué señales te ayudan a distinguir entre adaptar el camino y dejar una meta que ya no tiene sentido?"
+			]
+		}
+	},
+	{
+		"id": "prudencia-01",
+		"text": "Antes de reenviar una acusación sobre alguien, compruebo su origen y considero el daño de difundirla si es falsa.",
+		"primaryValueId": "prudencia",
+		"relatedValueIds": ["honestidad", "respeto"],
+		"explanation": "La decisión se detiene para evaluar un posible daño y la fiabilidad de la información.",
+		"difficulty": 1,
+		"dimensions": ["decisions", "relationships"]
+	},
+	{
+		"id": "prudencia-02",
+		"text": "Antes de gastar un recurso que necesitaré pronto, considero cómo cubriría lo esencial si surge un imprevisto.",
+		"primaryValueId": "prudencia",
+		"relatedValueIds": ["responsabilidad"],
+		"explanation": "Se tiene en cuenta una consecuencia futura antes de comprometer recursos.",
+		"difficulty": 2,
+		"dimensions": ["self", "decisions", "future"]
+	},
+	{
+		"id": "prudencia-03",
+		"text": "Si una decisión afecta a otras personas y desconozco un dato decisivo, lo compruebo antes de actuar cuando hay margen para hacerlo.",
+		"primaryValueId": "prudencia",
+		"relatedValueIds": ["humildad", "responsabilidad"],
+		"explanation": "Reconocer la incertidumbre sirve para reducir un riesgo. Humildad admite no saber; prudencia orienta qué hacer con ese límite.",
+		"difficulty": 3,
+		"dimensions": ["decisions", "community"]
+	},
+	{
+		"id": "prudencia-04",
+		"text": "Cuando esperar también tiene costes, comparo esos costes con los riesgos de actuar y elijo una precaución proporcionada.",
+		"primaryValueId": "prudencia",
+		"relatedValueIds": ["paciencia", "coraje"],
+		"explanation": "Prudencia no equivale a aplazar todo: puede llevar a actuar con información incompleta. Paciencia se centra en tolerar la espera.",
+		"difficulty": 4,
+		"dimensions": ["decisions", "future"]
+	},
+	{
+		"id": "solidaridad-01",
+		"text": "Si varias personas del barrio necesitan apoyo tras un imprevisto, participo según mis posibilidades en una ayuda organizada.",
+		"primaryValueId": "solidaridad",
+		"relatedValueIds": ["colaboracion", "generosidad"],
+		"explanation": "La respuesta se comparte porque la dificultad se reconoce como algo que podemos afrontar en común.",
+		"difficulty": 1,
+		"dimensions": ["community", "contribution"]
+	},
+	{
+		"id": "solidaridad-02",
+		"text": "Cuando repartimos turnos de apoyo en una familia, procuro que la carga no recaiga solo en quien tiene más difícil negarse.",
+		"primaryValueId": "solidaridad",
+		"relatedValueIds": ["justicia", "cuidado"],
+		"explanation": "Se sostiene una respuesta compartida a una necesidad, cuidando que el apoyo mutuo no se convierta en carga unilateral.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "solidaridad-03",
+		"text": "En un grupo de apoyo mutuo, acepto que alguien reciba ayuda sin poder devolverla en ese momento.",
+		"primaryValueId": "solidaridad",
+		"relatedValueIds": ["generosidad"],
+		"explanation": "La interdependencia no exige intercambios inmediatos equivalentes. Generosidad puede explicar un gesto; solidaridad sostiene la red común.",
+		"difficulty": 3,
+		"dimensions": ["community", "contribution"]
+	},
+	{
+		"id": "solidaridad-04",
+		"text": "Cuando una dificultad que afecta a otras personas podría afectar a cualquiera del grupo, colaboro en una respuesta común aunque hoy no necesite ayuda.",
+		"primaryValueId": "solidaridad",
+		"relatedValueIds": ["compasion", "colaboracion"],
+		"explanation": "Se actúa desde una vulnerabilidad compartida, no solo por sentir compasión ante un caso particular.",
+		"difficulty": 4,
+		"dimensions": ["community", "future"]
+	},
+	{
+		"id": "tolerancia-01",
+		"text": "Si alguien disfruta de una afición que no me interesa, acepto que la practique sin intentar ridiculizarla o cambiarla.",
+		"primaryValueId": "tolerancia",
+		"relatedValueIds": ["respeto", "libertad"],
+		"explanation": "Se deja espacio a una preferencia distinta de la propia.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "tolerancia-02",
+		"text": "En una convivencia, busco acuerdos que permitan costumbres diferentes en vez de exigir que todo se haga a mi manera.",
+		"primaryValueId": "tolerancia",
+		"relatedValueIds": ["colaboracion"],
+		"explanation": "La diferencia se incorpora a la vida compartida sin convertir una preferencia en norma absoluta.",
+		"difficulty": 2,
+		"dimensions": ["relationships", "community"]
+	},
+	{
+		"id": "tolerancia-03",
+		"text": "Puedo compartir una actividad con alguien que piensa distinto en otros asuntos, mientras podamos tratarnos sin daño.",
+		"primaryValueId": "tolerancia",
+		"relatedValueIds": ["empatia", "respeto"],
+		"explanation": "La discrepancia no se vuelve un requisito de exclusión de toda relación. Comprender su perspectiva sería el foco de empatía.",
+		"difficulty": 3,
+		"dimensions": ["community", "relationships"]
+	},
+	{
+		"id": "tolerancia-04",
+		"text": "Distingo entre una opinión que me incomoda y una conducta que vulnera límites, para dar espacio a la primera sin normalizar la segunda.",
+		"primaryValueId": "tolerancia",
+		"relatedValueIds": ["respeto", "prudencia"],
+		"explanation": "Tolerancia admite diferencias, no exige aceptar daño. Respeto fija el trato y los límites que hacen posible esa convivencia.",
+		"difficulty": 4,
+		"dimensions": ["community", "decisions"]
+	},
+	{
+		"id": "cuidado-01",
+		"text": "Si noto que necesito descansar, busco un momento para hacerlo en vez de ignorar esa necesidad de forma habitual.",
+		"primaryValueId": "cuidado",
+		"relatedValueIds": ["equilibrio"],
+		"explanation": "Se atiende una necesidad propia para sostener el bienestar.",
+		"difficulty": 1,
+		"dimensions": ["self"]
+	},
+	{
+		"id": "cuidado-02",
+		"text": "Cuando acompaño a alguien que necesita ayuda, pregunto cómo prefiere recibirla y qué puede seguir haciendo por su cuenta.",
+		"primaryValueId": "cuidado",
+		"relatedValueIds": ["autonomia", "respeto"],
+		"explanation": "Atender una necesidad incluye preservar la capacidad de la persona, no sustituirla innecesariamente.",
+		"difficulty": 2,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "cuidado-03",
+		"text": "Cuando utilizo un espacio natural compartido, evito dejar residuos que deterioren sus condiciones para otros seres vivos.",
+		"primaryValueId": "cuidado",
+		"relatedValueIds": ["responsabilidad", "contribucion"],
+		"explanation": "La acción sostiene las condiciones de un entorno, no responde solo a una obligación o a un beneficio personal.",
+		"difficulty": 3,
+		"dimensions": ["community", "future"],
+		"reflection": {
+			"mission": ["¿Qué gesto de cuidado de un lugar compartido podrías sostener en tus visitas?"]
+		}
+	},
+	{
+		"id": "cuidado-04",
+		"text": "En una etapa en que alguien está bien pero necesita apoyo cotidiano, mantengo las atenciones acordadas sin esperar a que aparezca una crisis.",
+		"primaryValueId": "cuidado",
+		"relatedValueIds": ["compasion", "compromiso"],
+		"explanation": "El cuidado sostiene necesidades continuadas. Compasión se centra en aliviar un sufrimiento; aquí se actúa también antes de que exista.",
+		"difficulty": 4,
+		"dimensions": ["relationships", "future"]
+	},
+	{
+		"id": "privacidad-01",
+		"text": "Antes de contar una historia personal que alguien me confió, le pregunto si quiere que la comparta.",
+		"primaryValueId": "privacidad",
+		"relatedValueIds": ["respeto", "lealtad"],
+		"explanation": "Se preserva el control de la persona sobre su información.",
+		"difficulty": 1,
+		"dimensions": ["relationships"]
+	},
+	{
+		"id": "privacidad-02",
+		"text": "Cuando me preguntan por un asunto íntimo que no quiero contar, digo que prefiero reservarlo sin sentir que debo inventar una respuesta.",
+		"primaryValueId": "privacidad",
+		"relatedValueIds": ["honestidad", "autenticidad"],
+		"explanation": "Reservar información propia es compatible con no engañar: privacidad no exige fabricar una explicación.",
+		"difficulty": 2,
+		"dimensions": ["self", "relationships"]
+	},
+	{
+		"id": "privacidad-03",
+		"text": "Cuando organizo una actividad, pido solo los datos personales necesarios y explico para qué se usarán.",
+		"primaryValueId": "privacidad",
+		"relatedValueIds": ["transparencia", "prudencia"],
+		"explanation": "El foco es limitar la exposición de información personal. Transparencia ayuda al explicar el uso, pero por sí sola no reduce los datos pedidos.",
+		"difficulty": 3,
+		"dimensions": ["community", "decisions"]
+	},
+	{
+		"id": "privacidad-04",
+		"text": "Si debo explicar un problema que afecta a un grupo, cuento lo necesario para resolverlo sin difundir detalles íntimos que no aportan a la decisión.",
+		"primaryValueId": "privacidad",
+		"relatedValueIds": ["transparencia", "respeto"],
+		"explanation": "Se distingue información pertinente de exposición innecesaria. Transparencia permite comprender el problema; privacidad protege lo que no hace falta revelar.",
+		"difficulty": 4,
+		"dimensions": ["community", "relationships"],
+		"reflection": {
+			"questions": [
+				"¿Qué detalle personal podrías reservar sin impedir que se comprenda un problema?"
+			]
+		}
+	}
+]

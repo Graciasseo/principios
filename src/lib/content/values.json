@@ -1,0 +1,393 @@
+[
+	{
+		"id": "honestidad",
+		"name": "Honestidad",
+		"shortDefinition": "Actuar y comunicarme sin engañar deliberadamente ni distorsionar lo que considero verdadero.",
+		"explanation": "La honestidad evita falsear o distorsionar lo que creemos verdadero. Transparencia hace visible información relevante; autenticidad expresa la propia experiencia, y la integridad sostiene criterios éticos más amplios.",
+		"confusableWith": ["integridad", "transparencia", "autenticidad", "coherencia"],
+		"dimensions": ["identity", "relationships", "decisions"]
+	},
+	{
+		"id": "integridad",
+		"name": "Integridad",
+		"shortDefinition": "Mantener criterios éticos, también bajo presión.",
+		"explanation": "La integridad implica no negociar nuestros límites éticos por conveniencia; es más amplia que decir la verdad o ser constante.",
+		"confusableWith": ["honestidad", "coherencia", "lealtad"],
+		"dimensions": ["identity", "decisions", "community"],
+		"reflection": {
+			"questions": ["¿Qué límite te resulta importante mantener cuando sostenerlo tiene un coste?"]
+		}
+	},
+	{
+		"id": "transparencia",
+		"name": "Transparencia",
+		"shortDefinition": "Hacer visible la información relevante.",
+		"explanation": "La transparencia facilita entender condiciones, procesos y motivos. Honestidad evita el engaño; transparencia hace visible información relevante, con respeto a la privacidad de lo que no hace falta revelar.",
+		"confusableWith": ["honestidad", "privacidad", "responsabilidad"],
+		"dimensions": ["relationships", "decisions", "community"]
+	},
+	{
+		"id": "autonomia",
+		"name": "Autonomía",
+		"shortDefinition": "Desarrollar criterio y capacidades para dirigir mis decisiones y actuar por cuenta propia.",
+		"explanation": "La autonomía une criterio propio y capacidad para actuar, admitiendo ayuda elegida. Libertad protege la elección frente a imposiciones. En este catálogo, reducir dependencias prácticas es parte de autonomía, no un valor separado llamado independencia.",
+		"confusableWith": ["libertad", "confianza", "responsabilidad"],
+		"dimensions": ["identity", "self", "decisions"],
+		"reflection": {
+			"questions": ["¿Qué dependencias has elegido y cuáles te gustaría poder revisar?"]
+		}
+	},
+	{
+		"id": "libertad",
+		"name": "Libertad",
+		"shortDefinition": "Poder elegir sin imposiciones indebidas.",
+		"explanation": "La libertad protege el espacio para elegir y disentir, respetando los mismos derechos de las demás personas.",
+		"confusableWith": ["autonomia", "tolerancia", "respeto"],
+		"dimensions": ["identity", "relationships", "decisions"],
+		"reflection": {
+			"purpose": ["¿Qué espacio de elección te gustaría cuidar para ti o para otras personas?"]
+		}
+	},
+	{
+		"id": "responsabilidad",
+		"name": "Responsabilidad",
+		"shortDefinition": "Asumir compromisos y sus consecuencias.",
+		"explanation": "La responsabilidad se hace cargo de obligaciones y consecuencias. Compromiso sostiene una implicación elegida; disciplina organiza la práctica. Ser responsable también incluye reparar y avisar cuando no se puede cumplir.",
+		"confusableWith": ["compromiso", "disciplina", "integridad"],
+		"dimensions": ["self", "relationships", "decisions"]
+	},
+	{
+		"id": "coherencia",
+		"name": "Coherencia",
+		"shortDefinition": "Procurar que lo que pienso, digo y hago mantenga una relación consistente.",
+		"explanation": "La coherencia es la correspondencia entre criterios declarados y acciones. Por sí sola no garantiza que un criterio sea ético o correcto.",
+		"confusableWith": ["integridad", "autenticidad", "honestidad"],
+		"dimensions": ["identity", "self", "decisions"],
+		"reflection": {
+			"questions": ["¿Qué prioridad que expresas te gustaría ver más reflejada en tus decisiones?"]
+		}
+	},
+	{
+		"id": "simplicidad",
+		"name": "Simplicidad",
+		"shortDefinition": "Evitar complejidad que no aporta valor.",
+		"explanation": "La simplicidad busca lo suficiente y comprensible, sin eliminar requisitos importantes ni confundir menos pasos con peor calidad.",
+		"confusableWith": ["excelencia", "equilibrio", "prudencia"],
+		"dimensions": ["self", "decisions", "work"],
+		"reflection": {
+			"questions": ["¿Qué parte de tu vida se ha complicado sin aportar algo que valores?"],
+			"vision": [
+				"¿Cómo sería un día con menos pasos innecesarios y espacio para lo que te importa?"
+			]
+		}
+	},
+	{
+		"id": "excelencia",
+		"name": "Excelencia",
+		"shortDefinition": "Cuidar y mejorar la calidad de lo que hago.",
+		"explanation": "La excelencia busca calidad mediante práctica y revisión, también en actividades cotidianas. Disciplina mantiene la regularidad y perseverancia continúa ante obstáculos; excelencia mira al resultado sin exigir perfección.",
+		"confusableWith": ["disciplina", "responsabilidad", "simplicidad"],
+		"dimensions": ["growth", "work", "self"]
+	},
+	{
+		"id": "respeto",
+		"name": "Respeto",
+		"shortDefinition": "Reconocer la dignidad y los límites de otras personas.",
+		"explanation": "El respeto reconoce dignidad y límites. Empatía busca comprender la vivencia; tolerancia admite diferencias; respeto exige un trato digno incluso si no comprendemos o compartimos lo que alguien piensa.",
+		"confusableWith": ["empatia", "tolerancia", "privacidad"],
+		"dimensions": ["relationships", "community", "self"]
+	},
+	{
+		"id": "empatia",
+		"name": "Empatía",
+		"shortDefinition": "Intentar comprender la experiencia de otra persona.",
+		"explanation": "La empatía busca comprender sentimientos y perspectivas sin suponer que son iguales a los propios. Compasión mueve a aliviar el sufrimiento; respeto guía el trato. Comprender no implica aprobar toda conducta.",
+		"confusableWith": ["compasion", "respeto", "tolerancia"],
+		"dimensions": ["relationships", "community"],
+		"reflection": {
+			"questions": ["¿En qué conversaciones te cuesta más intentar comprender otra perspectiva?"]
+		}
+	},
+	{
+		"id": "justicia",
+		"name": "Justicia",
+		"shortDefinition": "Aplicar criterios equitativos y evitar favoritismos.",
+		"explanation": "La justicia reparte oportunidades, cargas y recursos con criterios defendibles, sin favoritismos. Solidaridad organiza apoyo mutuo; lealtad sostiene vínculos. Dar lo mismo no siempre produce condiciones equitativas.",
+		"confusableWith": ["solidaridad", "lealtad", "integridad"],
+		"dimensions": ["community", "decisions", "future"],
+		"reflection": {
+			"vision": [
+				"¿Cómo sería un entorno que consideraras más justo para quienes parten de situaciones diferentes?"
+			]
+		}
+	},
+	{
+		"id": "autenticidad",
+		"name": "Autenticidad",
+		"shortDefinition": "Expresar lo que de verdad pienso, siento y prefiero, sin fingir para encajar.",
+		"explanation": "La autenticidad busca fidelidad a la propia experiencia. Honestidad evita engañar; coherencia alinea palabras y actos. Ser auténtico no obliga a contarlo todo ni impide cambiar.",
+		"confusableWith": ["honestidad", "coherencia", "autonomia"],
+		"dimensions": ["identity", "self", "relationships"],
+		"reflection": {
+			"questions": ["¿En qué situaciones sientes que representas un papel para encajar?"]
+		}
+	},
+	{
+		"id": "compasion",
+		"name": "Compasión",
+		"shortDefinition": "Responder al sufrimiento con sensibilidad y voluntad de aliviarlo.",
+		"explanation": "La compasión orienta a aliviar un sufrimiento concreto. La empatía busca comprenderlo; el cuidado atiende necesidades también cuando no hay sufrimiento. Ayudar requiere respetar los límites de quien recibe la ayuda.",
+		"confusableWith": ["empatia", "cuidado", "solidaridad"],
+		"dimensions": ["relationships", "self", "contribution"],
+		"reflection": {
+			"purpose": [
+				"¿Qué sufrimiento cercano te gustaría ayudar a aliviar, dentro de tus posibilidades?"
+			]
+		}
+	},
+	{
+		"id": "compromiso",
+		"name": "Compromiso",
+		"shortDefinition": "Dar continuidad a una elección o un vínculo que he decidido sostener.",
+		"explanation": "El compromiso sostiene una implicación elegida. La responsabilidad atiende obligaciones y consecuencias; la disciplina organiza hábitos; la perseverancia continúa ante obstáculos. Comprometerse no impide renegociar límites.",
+		"confusableWith": ["responsabilidad", "disciplina", "perseverancia"],
+		"dimensions": ["relationships", "identity", "future"],
+		"reflection": {
+			"mission": ["¿Qué forma de presencia podrías sostener en un vínculo que te importa?"]
+		}
+	},
+	{
+		"id": "colaboracion",
+		"name": "Colaboración",
+		"shortDefinition": "Construir con otras personas una acción o un resultado compartido.",
+		"explanation": "La colaboración coordina aportaciones para hacer algo en común. Generosidad puede ser una ayuda unilateral y solidaridad responde a necesidades compartidas; colaborar no exige que exista una dificultad.",
+		"confusableWith": ["contribucion", "solidaridad", "generosidad"],
+		"dimensions": ["relationships", "community", "work"],
+		"reflection": {
+			"mission": [
+				"¿Qué podrías hacer con otras personas que no tendría el mismo sentido en solitario?"
+			]
+		}
+	},
+	{
+		"id": "confianza",
+		"name": "Confianza",
+		"shortDefinition": "Dar margen a otras personas para actuar sin exigir certeza o control completos.",
+		"explanation": "La confianza acepta una vulnerabilidad razonable al contar con otra persona. No es credulidad: puede apoyarse en acuerdos y revisarse. Autonomía se refiere a la propia capacidad; confianza, al margen que damos en una relación.",
+		"confusableWith": ["autonomia", "prudencia", "lealtad"],
+		"dimensions": ["relationships", "community", "decisions"],
+		"reflection": {
+			"vision": [
+				"¿Qué tendría que existir para relacionarte con más confianza sin renunciar a tus límites?"
+			]
+		}
+	},
+	{
+		"id": "contribucion",
+		"name": "Contribución",
+		"shortDefinition": "Aportar algo que resulte útil o valioso más allá de mí.",
+		"explanation": "La contribución mira al valor que recibe un entorno o una persona. Generosidad destaca compartir lo propio; colaboración, hacer en común; contribución puede consistir también en crear, transmitir o mejorar algo.",
+		"confusableWith": ["generosidad", "colaboracion", "solidaridad"],
+		"dimensions": ["contribution", "community", "future"],
+		"reflection": {
+			"purpose": [
+				"¿Qué te gustaría que otras personas recibieran gracias a tu presencia o a lo que haces?"
+			],
+			"vision": [
+				"¿Qué aporte pequeño te gustaría que siguiera siendo útil cuando ya no estés participando?"
+			]
+		}
+	},
+	{
+		"id": "coraje",
+		"name": "Coraje",
+		"shortDefinition": "Actuar ante un temor cuando hay una razón valiosa para hacerlo.",
+		"explanation": "El coraje permite actuar con miedo, no carecer de él. Prudencia valora riesgos y perseverancia sostiene el esfuerzo; coraje se refiere a dar un paso que el temor dificulta, sin exigir exponerse de forma temeraria.",
+		"confusableWith": ["prudencia", "perseverancia", "autenticidad"],
+		"dimensions": ["self", "decisions", "growth"],
+		"reflection": {
+			"questions": ["¿Qué conversación valiosa has ido aplazando por miedo a cómo pueda salir?"]
+		}
+	},
+	{
+		"id": "creatividad",
+		"name": "Creatividad",
+		"shortDefinition": "Explorar y dar forma a posibilidades que no están ya resueltas.",
+		"explanation": "La creatividad genera combinaciones o respuestas nuevas en un contexto. Curiosidad busca comprender; excelencia mejora la calidad. Crear no requiere originalidad absoluta ni una profesión artística.",
+		"confusableWith": ["curiosidad", "excelencia", "autonomia"],
+		"dimensions": ["self", "growth", "contribution"],
+		"reflection": {
+			"purpose": ["¿Qué te gustaría expresar o hacer posible que hoy echas en falta?"],
+			"vision": [
+				"¿Qué espacio de tu vida te gustaría abrir a posibilidades que todavía no has probado?"
+			]
+		}
+	},
+	{
+		"id": "curiosidad",
+		"name": "Curiosidad",
+		"shortDefinition": "Querer comprender lo desconocido y revisar lo que doy por sabido.",
+		"explanation": "La curiosidad lleva a preguntar y explorar. Humildad reconoce límites del conocimiento; creatividad produce posibilidades. La curiosidad puede motivar aprendizaje sin buscar utilidad inmediata.",
+		"confusableWith": ["humildad", "creatividad", "excelencia"],
+		"dimensions": ["growth", "self", "decisions"],
+		"reflection": {
+			"mission": ["¿De qué forma podrías convertir tus preguntas en una práctica habitual?"]
+		}
+	},
+	{
+		"id": "disciplina",
+		"name": "Disciplina",
+		"shortDefinition": "Organizar y repetir acciones elegidas aunque la motivación fluctúe.",
+		"explanation": "La disciplina da estructura a la práctica. Perseverancia continúa frente a un obstáculo; compromiso sostiene una elección. Una rutina disciplinada puede incluir descansos y adaptaciones.",
+		"confusableWith": ["perseverancia", "compromiso", "responsabilidad"],
+		"dimensions": ["self", "growth", "work"],
+		"reflection": {
+			"mission": ["¿Qué práctica pequeña merece un lugar regular en tu semana?"]
+		}
+	},
+	{
+		"id": "equilibrio",
+		"name": "Equilibrio",
+		"shortDefinition": "Dar espacio a necesidades y ámbitos importantes sin relegar sistemáticamente unos a otros.",
+		"explanation": "El equilibrio ajusta el reparto de tiempo, energía y atención. No exige cantidades iguales. Cuidado atiende una necesidad; equilibrio considera cómo convive con las demás y acepta ajustes según la situación.",
+		"confusableWith": ["cuidado", "prudencia", "disciplina"],
+		"dimensions": ["self", "decisions", "relationships"],
+		"reflection": {
+			"questions": ["¿Qué necesidad suele quedar al final cuando repartes tu tiempo?"],
+			"vision": [
+				"¿Cómo sería una semana que diera un lugar suficiente a las distintas partes de tu vida?"
+			]
+		}
+	},
+	{
+		"id": "generosidad",
+		"name": "Generosidad",
+		"shortDefinition": "Compartir voluntariamente tiempo, recursos o atención sin exigir una devolución equivalente.",
+		"explanation": "La generosidad pone algo propio a disposición de otra persona. Contribución mira a la utilidad del aporte; solidaridad responde a necesidades con un sentido de apoyo mutuo. Dar no exige ignorar los propios límites.",
+		"confusableWith": ["contribucion", "solidaridad", "cuidado"],
+		"dimensions": ["relationships", "contribution", "self"],
+		"reflection": {
+			"purpose": ["¿Qué disfrutas compartir sin esperar que te lo devuelvan del mismo modo?"]
+		}
+	},
+	{
+		"id": "gratitud",
+		"name": "Gratitud",
+		"shortDefinition": "Reconocer lo que recibo y el valor que tiene para mí.",
+		"explanation": "La gratitud hace visible un beneficio recibido y a quienes lo hicieron posible. No obliga a devolver favores ni a tolerar daños. Generosidad pone el foco en dar; gratitud, en reconocer lo recibido.",
+		"confusableWith": ["generosidad", "humildad", "lealtad"],
+		"dimensions": ["self", "relationships", "community"],
+		"reflection": {
+			"mission": ["¿Cómo te gustaría reconocer el apoyo que a veces das por hecho?"]
+		}
+	},
+	{
+		"id": "humildad",
+		"name": "Humildad",
+		"shortDefinition": "Reconocer mis límites y poder aprender sin situarme por encima de otras personas.",
+		"explanation": "La humildad ajusta la idea que tengo de mi conocimiento y capacidad. No consiste en menospreciarse. Curiosidad explora; prudencia valora riesgos; humildad admite que podemos necesitar corrección o ayuda.",
+		"confusableWith": ["curiosidad", "prudencia", "honestidad"],
+		"dimensions": ["self", "growth", "relationships"],
+		"reflection": {
+			"questions": [
+				"¿Qué te ayudaría a pedir apoyo sin interpretarlo como una falta de valor personal?"
+			]
+		}
+	},
+	{
+		"id": "lealtad",
+		"name": "Lealtad",
+		"shortDefinition": "Sostener un vínculo valioso con presencia y consideración, también cuando resulta incómodo.",
+		"explanation": "La lealtad cuida vínculos y la confianza depositada. No exige encubrir daños ni obediencia ciega. Compromiso sostiene una elección; lealtad destaca la fidelidad a personas o grupos concretos.",
+		"confusableWith": ["compromiso", "integridad", "justicia"],
+		"dimensions": ["relationships", "identity", "community"],
+		"reflection": {
+			"questions": [
+				"¿Cómo puedes acompañar a alguien sin justificar una conducta que consideras dañina?"
+			]
+		}
+	},
+	{
+		"id": "paciencia",
+		"name": "Paciencia",
+		"shortDefinition": "Dar tiempo a procesos y personas sin precipitar una respuesta por incomodidad.",
+		"explanation": "La paciencia regula nuestra relación con la espera. Perseverancia continúa el esfuerzo; prudencia evalúa riesgos antes de actuar. Esperar no implica aceptar daños indefinidamente ni renunciar a poner límites.",
+		"confusableWith": ["prudencia", "perseverancia", "cuidado"],
+		"dimensions": ["self", "relationships", "growth"],
+		"reflection": {
+			"questions": [
+				"¿Qué proceso importante podría necesitar más tiempo del que le estás concediendo?"
+			]
+		}
+	},
+	{
+		"id": "perseverancia",
+		"name": "Perseverancia",
+		"shortDefinition": "Mantener un esfuerzo valioso ante dificultades, ajustando la manera de continuar.",
+		"explanation": "La perseverancia se refiere a continuar tras obstáculos o reveses. Disciplina organiza la regularidad y paciencia tolera los tiempos. Perseverar admite cambiar de estrategia o abandonar un objetivo que ya no merece el coste.",
+		"confusableWith": ["disciplina", "paciencia", "compromiso"],
+		"dimensions": ["growth", "self", "future"]
+	},
+	{
+		"id": "prudencia",
+		"name": "Prudencia",
+		"shortDefinition": "Considerar consecuencias e incertidumbre antes de exponernos o exponer a otros a un daño evitable.",
+		"explanation": "La prudencia ajusta decisiones al riesgo y a la información disponible. Paciencia da tiempo; humildad reconoce límites; prudencia usa esas consideraciones para decidir con cautela, sin exigir certeza absoluta.",
+		"confusableWith": ["paciencia", "humildad", "responsabilidad"],
+		"dimensions": ["decisions", "self", "future"],
+		"reflection": {
+			"questions": [
+				"¿Qué información necesitas realmente antes de una decisión, y qué incertidumbre podrías aceptar?"
+			]
+		}
+	},
+	{
+		"id": "solidaridad",
+		"name": "Solidaridad",
+		"shortDefinition": "Implicarme en el apoyo mutuo frente a necesidades o dificultades compartidas.",
+		"explanation": "La solidaridad une la ayuda a un sentido de interdependencia. Generosidad puede ser un gesto individual; compasión responde al sufrimiento; solidaridad sostiene respuestas comunes sin exigir que todas las personas puedan aportar lo mismo.",
+		"confusableWith": ["generosidad", "compasion", "justicia"],
+		"dimensions": ["community", "contribution", "relationships"],
+		"reflection": {
+			"purpose": ["¿Qué necesidad compartida te gustaría ayudar a afrontar en tu entorno?"],
+			"vision": [
+				"¿Cómo sería una red en la que pedir ayuda no exigiera poder devolverla de inmediato?"
+			]
+		}
+	},
+	{
+		"id": "tolerancia",
+		"name": "Tolerancia",
+		"shortDefinition": "Convivir con diferencias que no comparto sin imponer mi preferencia como única opción.",
+		"explanation": "La tolerancia admite diferencias de opinión o costumbre dentro de límites compatibles con el trato digno. Respeto protege a la persona; tolerancia permite convivir con lo que no nos gusta. No obliga a tolerar maltrato.",
+		"confusableWith": ["respeto", "libertad", "empatia"],
+		"dimensions": ["relationships", "community", "decisions"]
+	},
+	{
+		"id": "cuidado",
+		"name": "Cuidado",
+		"shortDefinition": "Atender necesidades concretas para sostener el bienestar de personas y entornos.",
+		"explanation": "El cuidado mantiene condiciones de bienestar y reconoce vulnerabilidades, incluidas las propias. Compasión busca aliviar sufrimiento; cuidado también previene y acompaña. Equilibrio mira al reparto entre ámbitos, no a una necesidad concreta.",
+		"confusableWith": ["compasion", "equilibrio", "responsabilidad"],
+		"dimensions": ["self", "relationships", "community"],
+		"reflection": {
+			"purpose": ["¿Qué personas, entornos o formas de vida sientes que merece la pena cuidar?"],
+			"mission": [
+				"¿Qué atención concreta te gustaría mantener sin esperar a que aparezca una urgencia?"
+			]
+		}
+	},
+	{
+		"id": "privacidad",
+		"name": "Privacidad",
+		"shortDefinition": "Poder decidir qué información personal comparto, con quién y en qué contexto.",
+		"explanation": "La privacidad protege el control sobre la información y la intimidad. Transparencia hace visible lo relevante para una decisión, pero no da acceso indiscriminado a la vida de alguien. Respetar la privacidad no equivale a encubrir daños.",
+		"confusableWith": ["transparencia", "respeto", "autonomia"],
+		"dimensions": ["self", "relationships", "decisions"],
+		"reflection": {
+			"purpose": [
+				"¿Qué espacio de intimidad te parece valioso proteger para poder relacionarte con libertad?"
+			]
+		}
+	}
+]
